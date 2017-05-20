@@ -5,7 +5,7 @@
   "main": "./lib/index.js",
   "repository": "https://github.com/mhdsyrwan/aor-rest-client-router.git",
   "authors": [
-    "Muhammad Al-Seyrawan"
+    "Muhammad Al-Seyrawan <mhdsyrwan@gmail.com>"
   ],
   "license": "MIT",
   "scripts": {
