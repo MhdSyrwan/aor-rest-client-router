@@ -1,3 +1,7 @@
+[![npm](https://img.shields.io/npm/dw/aor-rest-client-router.svg)](https://www.npmjs.com/package/aor-rest-client-router)
+[![npm](https://img.shields.io/npm/v/aor-rest-client-router.svg)](https://www.npmjs.com/package/aor-rest-client-router)
+[![npm](https://img.shields.io/npm/l/aor-rest-client-router.svg)](https://www.npmjs.com/package/aor-rest-client-router)
+
 # aor-rest-client-router
 
 A restClient that enables routing to many restClients based on resource name in [Admin-on-rest](https://github.com/marmelab/admin-on-rest/).
@@ -52,7 +56,7 @@ const App = () => (
         <Resource name="users" list={UserList} />        <!-- Will route to service2 -->
         <Resource name="service3://comments"  
                             list={CommentList} />        <!-- Will route to service3 (explicit route) -->
-        <Resource name="profiles" list={ProfileList} />  <!-- Will route to service4 (via wildcard '*') -->
+        <Resource name="profiles" list={ProfileList} />  <!-- Will route to service4 (via the wildcard '*' rule) -->
     </Admin>
 );
 
