@@ -48,6 +48,6 @@
     "wildcard-regex": "^3.0.2"
   },
   "peerDependencies": {
-    "admin-on-rest": "~0.9.1"
+    "admin-on-rest": "~1.0.1"
   }
 }
